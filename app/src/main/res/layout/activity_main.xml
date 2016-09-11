@@ -39,7 +39,7 @@
             android:src="@drawable/logo" />
 
         <TextView
-            android:id="@+id/textViewn"
+            android:id="@+id/textViewnama"
             android:layout_width="92dp"
             android:layout_height="match_parent"
             android:text="Nama" />
@@ -50,17 +50,17 @@
             android:layout_height="wrap_content" />
 
         <TextView
-            android:id="@+id/textView2"
+            android:id="@+id/textViewkelas"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="NIS" />
+            android:text="Kelas" />
 
-        <EditText
-            android:id="@+id/editTextNis"
+        <Spinner
+            android:id="@+id/spinnerKelas"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="number" />
+            android:layout_weight="1.11"
+            android:entries="@array/kelas" />
 
         <TextView
             android:id="@+id/textView3"
@@ -68,19 +68,25 @@
             android:layout_height="wrap_content"
             android:text="Gender" />
 
-        <RadioButton
-            android:id="@+id/radioButton"
+        <RadioGroup
+            android:id="@+id/radiogroupstatus"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:checked="false"
-            android:text="laki - laki" />
+            android:layout_height="wrap_content">
 
-        <RadioButton
-            android:id="@+id/radioButton2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:checked="false"
-            android:text="perempuan" />
+            <RadioButton
+                android:id="@+id/radioButtonlk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="laki - laki" />
+
+            <RadioButton
+                android:id="@+id/radioButtonpr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="perempuan" />
+        </RadioGroup>
 
         <TextView
             android:id="@+id/textView4"
@@ -89,37 +95,37 @@
             android:text="Bidang" />
 
         <CheckBox
-            android:id="@+id/checkBox"
+            android:id="@+id/checkBoxOlh"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="false"
             android:text="Olahraga" />
 
         <CheckBox
-            android:id="@+id/checkBox2"
+            android:id="@+id/checkBoxsn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="false"
             android:text="Seni" />
 
         <CheckBox
-            android:id="@+id/checkBox3"
+            android:id="@+id/checkBoxpg"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="false"
             android:text="Pemograman" />
-
-        <Spinner
-            android:id="@+id/spinner"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:spinnerMode="dropdown" />
 
         <Button
             android:id="@+id/buttonKirim"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Kirim" />
+
+        <TextView
+            android:id="@+id/textViewhasil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Hasil" />
 
 
     </LinearLayout>
