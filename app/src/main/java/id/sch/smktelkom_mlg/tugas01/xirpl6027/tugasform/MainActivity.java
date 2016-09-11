@@ -71,8 +71,9 @@ public class MainActivity extends AppCompatActivity {
             etNama.setError("Nama minimal 3 karakter");
             valid = false;
         } else {
-
+            etNama.setError(null);
         }
+        return valid;
     }
 
 
