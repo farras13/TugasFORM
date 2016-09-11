@@ -4,7 +4,7 @@ APK ini bertema FORM dan disini adalah FORM LKS (pendaftaraan lks).
 
 Untuk dapat daftar cukup mengisikan nama, kelas , gender , dan bidang yang inginkan.
 
-Semoga Apk ini bermanfaat meski masih terbatas.
+Semoga Apk ini bermanfaat meski masih terbatas dan jika Kepo atau ingin mencoba apk ini bisa di download di https://drive.google.com/a/smktelkom-mlg.sch.id/file/d/0B-VVgVc6c63HSDVKWHltbmdXbkE/view?usp=sharing
 
 Naufal Farras_XIRPL6_27_4787_SMK Telkom
 
